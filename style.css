@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&family=VT323&display=swap');
+
+body {
+  background-color: #fd8088;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('background.jpg');
+}
+
+h1 {
+  background-color: #ffffff;
+  letter-spacing: 4px;
+  text-align: left;
+  padding: 15px;
+  font-size: 24px;
+}
+
+#page {
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#poster {
+  width: 490px;
+  height: auto;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #e3e3e3;
+}
+
+.posterAlign {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#desc {
+  padding: 30px;
+  line-height: 1.1;
+  font-size: 14px;
+  max-width: 400px;
+}
+
+#chara {
+  background-color: #25567f;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 19px;
+}
+
+#profile {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #e3e3e3;
+}
+
+
+#Bio1 {
+  padding-top: 15px;
+  padding-left: 40px;
+  text-align: left;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+#Bio2 {
+  padding-top: 15px;
+  padding-right: 40px;
+  text-align: right;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+#trailer {
+  padding-top: 20px;
+}
+
+#reviews{
+  line-height: 1.7;
+  font-size: 14px;
+  color: white;
+  background-color: #25567f;
+  padding: 10px;
+}
+
+iframe {
+  padding-left: 20px;
+}
