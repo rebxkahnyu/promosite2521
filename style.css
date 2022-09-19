@@ -7,11 +7,14 @@ body {
 }
 
 h1 {
-  background-color: #ffffff;
+  background-color: #ebebeb;
   letter-spacing: 4px;
   text-align: left;
   padding: 15px;
   font-size: 24px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #e3e3e3;
 }
 
 #page {
@@ -31,7 +34,7 @@ h1 {
 .posterAlign {
   display: flex;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 #desc {
@@ -92,4 +95,24 @@ h1 {
 
 iframe {
   padding-left: 20px;
+}
+
+#review {
+  line-height: 1.3;
+  font-size: 14px;
+}
+
+#ostDiv {
+  align: center;
+}
+
+
+#ost {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+  border-width: 5px;
+  border-color: #e3e3e3;
+  padding-top: 20px;
 }
