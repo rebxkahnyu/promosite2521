@@ -24,7 +24,7 @@ h1 {
 }
 
 #poster {
-  width: 490px;
+  width: 460px;
   height: auto;
   border-style: inset;
   border-width: 5px;
@@ -53,12 +53,12 @@ h1 {
 }
 
 #profile {
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: 265px;
   object-fit: cover;
   display: block;
   border-style: inset;
-  border-width: 5px;
+  border-width: 7px;
   border-color: #e3e3e3;
 }
 
